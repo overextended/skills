@@ -1,6 +1,6 @@
 ---
 name: resource-best-practices
-description: FiveM resource defaults beyond security: entity spawning and network control, cleanup, loops, network traffic, state bags and SQL. Use when writing or reviewing a resource's client or server scripts, or when a resource doubles up after a restart, hitches, or floods the network.
+description: "FiveM resource defaults beyond security: entity spawning and network control, cleanup, loops, network traffic, state bags and SQL. Use when writing or reviewing a resource's client or server scripts, or when a resource doubles up after a restart, hitches, or floods the network."
 paths:
   - "**/*.lua"
   - "**/*.ts"
