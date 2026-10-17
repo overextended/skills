@@ -1,5 +1,11 @@
 # overextended-skills
 
+## 0.2.1
+
+### Patch Changes
+
+- [`b5be62c`](https://github.com/overextended/skills/commit/b5be62cb31e1a778bc740fdfb8d702891828315c) Thanks [@FjamZoo](https://github.com/FjamZoo)! - **`resource-best-practices`** loads again. Its `description` held an unquoted colon, so harnesses failed to parse the frontmatter and skipped the skill.
+
 ## 0.2.0
 
 ### Minor Changes
