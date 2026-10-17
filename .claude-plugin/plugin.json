@@ -1,6 +1,6 @@
 {
   "name": "overextended-skills",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Agent skills for building FiveM resources with the Overextended stack: ox_lib, ox_core, ox_inventory, ox_target, oxmysql and general FiveM resource development.",
   "author": {
     "name": "Overextended",
