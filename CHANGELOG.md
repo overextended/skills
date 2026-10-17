@@ -1,5 +1,17 @@
 # overextended-skills
 
+## 0.2.0
+
+### Minor Changes
+
+- [`c9e7dfb`](https://github.com/overextended/skills/commit/c9e7dfb743ab35de595a2bb1721f15f1c12b87bd) Thanks [@FjamZoo](https://github.com/FjamZoo)! - Add **`resource-best-practices`** (model-invoked) to the **FiveM** bucket, for creating, editing and reviewing resource code on any framework. It covers the standard practice that isn't security: spawning entities client-side and non-networked unless they must be shared (then on the server), requesting network control only when the server whitelists the entity, working with networked sounds, ragdoll requests and script entity states blocked, cleaning up on player drop and resource stop, events over loops, copying `source` before a yield, targeted network sends and small state bags, and parameterised, limited, atomic SQL.
+
+### Patch Changes
+
+- [`3ed1350`](https://github.com/overextended/skills/commit/3ed1350ac8e69244b7f96ca12ac92ca5e7324975) Thanks [@FjamZoo](https://github.com/FjamZoo)! - **`lua-best-practices`** and **`resource-best-practices`** no longer contradict each other: their loop examples read `cache.ped` instead of `PlayerPedId()`, and `resource-best-practices` now uses `lib.points` for "do something near a location" instead of a hand-written distance loop.
+
+- [`c9e7dfb`](https://github.com/overextended/skills/commit/c9e7dfb743ab35de595a2bb1721f15f1c12b87bd) Thanks [@FjamZoo](https://github.com/FjamZoo)! - **`ox-mode`** now calls **`resource-best-practices`** whenever it writes or reviews a resource's client or server code, alongside `lua-best-practices` and `typescript-best-practices`.
+
 ## 0.1.0
 
 ### Minor Changes
